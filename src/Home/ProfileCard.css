@@ -1,0 +1,30 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    float: right;
+    margin-right:40px;
+    margin-bottom:80px; 
+    text-align: center;
+    font-family: arial;
+    
+    border-style: solid;
+    display: table-cell;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+  }
+  .inUserCard{
+    padding:5px;
+    margin: 10px;
+    height: 300px;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+  }
+  .inUserCard:hover{
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .inUserCard h1{
+    font-size: 20px;
+  }

@@ -1,0 +1,123 @@
+
+
+
+.Peaceimg{
+  height: 90px;
+  position: absolute;
+  margin-right: 0px;
+  margin-left: 1160px;
+  border-radius: 50px;
+  width:90px;
+  margin-top: 0px;
+}
+
+.profilePad{
+  margin-top:20px;
+  position: absolute;
+  right: 20px;
+  scroll-behavior: smooth;
+  border-style: solid;
+  border-color: black;
+  height: 300px;
+  width:300px;
+  border-radius: 20px;
+  align-content: center;
+  box-shadow: 0,0,0,20px black;
+}
+
+.profilePad:hover{
+  margin-top:20px;
+  margin-left: 490px;
+  border-style: solid;
+  border-color:transparent;
+  background-color: #fff;
+  height: 300px;
+  width:300px;
+  border-radius: 20px;
+  align-content: center;
+}
+.prof{
+  margin-top:10px;
+  margin-left: 25%;
+  height: 10%;
+  width: 50%;
+  border-radius: 18px;
+  font-size: 17px;
+  align-content: center;
+  outline-color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  transition-duration: 0.3s;
+}
+.prof:hover{
+  margin-top:10px;
+  margin-left: 25%;
+  height: 10%;
+  width: 50%;
+  border-radius: 18px;
+  font-size: 17px;
+  align-content: center;
+  outline-color: transparent;
+  background-color:teal;
+  border-color: transparent;
+}
+.prof img{
+ 
+  height: 20px;
+}
+
+.containerClass{
+  width:500px;
+  margin-top: 30px;
+  margin-left: 0px;
+  border-style:hidden;
+  display: table-cell;
+}
+.container{
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+
+/*support*/
+.supportform{
+  align-content: center;
+  border-style: solid;
+  border-color: black; 
+  padding:50px;
+  padding-inline-start: 500px;
+}
+.sbutton{
+  margin-left: 125px;
+  margin-top: 40px;
+  border-radius: 5px;
+  border-style: initial;
+  padding:10px;
+  width: 80px;
+  background-color: transparent;
+  transition-duration: 0.3s;
+  font-size: 17px;
+}
+.sbutton:hover{
+  margin-left: 125px;
+  margin-top: 40px;
+  border-radius: 5px;
+  border-style: initial;
+  padding:10px;
+  width: 80px;
+  font-size: 17px;
+  background-color: teal;
+  color:white;
+  
+}
+.cont{
+  
+  margin-top: 20px;
+  width: 1110px;
+  margin-left: 120px;
+   
+}
+.dis{
+  display: inline;
+}

@@ -1,0 +1,76 @@
+.log-box{
+    max-width: 500px;
+    height: 370px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.2s;
+    align-content: center;
+    background-color:ghostwhite;
+}
+.log-box:hover{
+    
+    max-width: auto;
+    height: 370px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 40px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.2s;
+    align-content: center;
+    background-color:ghostwhite;
+}
+
+.log-box-in{
+    margin-top:60px;
+    margin-left: 55px;
+    margin-right: 40px;
+    padding:30px;
+    align-content: center;
+    
+}
+.button{
+    margin-left: 45px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-style: initial;
+    padding:10px;
+    width: 80px;
+    background-color: transparent;
+    transition-duration: 0.3s;
+    font-size: 17px;
+}
+.button:hover{
+    margin-left: 45px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-style: initial;
+    padding:10px;
+    width: 80px;
+    font-size: 17px;
+    background-color: teal;
+    color:white;
+    
+}
+.input{
+    width: 300px;
+    height: 30px;
+    padding:3px;
+    border-radius: 5px;
+    border-style:groove;
+    outline-color: transparent;
+}
+h5{
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+.h1{
+    color:cadetblue;
+    font-size: 30px;
+}
+header{
+    background-color: steelblue;
+    padding:20px;
+}
+
+

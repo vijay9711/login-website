@@ -1,0 +1,45 @@
+.sinput{
+    width: 300px;
+    height: 30px;
+    padding:3px;
+    border-radius: 5px;
+    border-style:groove;
+    outline-color: transparent;
+}
+.sinput:focus{
+    outline-color:rgb(0, 162, 255); 
+}
+.h5{
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.signup-box{
+    padding-right: 500px;
+    padding-left:500px; 
+    border-style: solid;
+    border-color: black;
+}
+.sbutton{
+    margin-left: 95px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-style: initial;
+    padding:10px;
+    width: 80px;
+    background-color: transparent;
+    transition-duration: 0.3s;
+    font-size: 17px;
+}
+.sbutton:hover{
+    margin-left: 95px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-style: initial;
+    padding:10px;
+    width: 80px;
+    font-size: 17px;
+    background-color: teal;
+    color:white;
+    
+}
