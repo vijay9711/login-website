@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './sigin.css'
-import md5 from 'c:/Users/vijis/node_modules/md5'
-import axios from 'c:/Users/vijis/node_modules/axios';
+import md5 from 'md5'
+import axios from 'axios';
 
 class SignUp extends Component {
     state = {

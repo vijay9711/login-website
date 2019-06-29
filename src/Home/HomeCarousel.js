@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
-    "c:/Users/vijis/node_modules/mdbreact";
+    "mdbreact";
 
 class Carousel extends Component {
     state = {}

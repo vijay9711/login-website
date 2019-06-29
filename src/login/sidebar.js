@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import SideNav, { MenuIcon, } from 'c:/Users/vijis/node_modules/react-simple-sidenav';
+import SideNav, { MenuIcon, } from 'react-simple-sidenav';
 import './sidebar.css';
 import logo from '../Data/logoPeace.jpg';
 import Data from '../Data/memberDetails.json'
-import axios from 'c:/Users/vijis/node_modules/axios';
+import axios from 'axios';
 
 class SideBar extends Component {
     state = {

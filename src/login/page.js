@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './login.css';
 //import Data from '../Data/memberDetails.json';
-import axios from 'c:/Users/vijis/node_modules/axios';
-import md5 from 'c:/Users/vijis/node_modules/md5';
+import axios from 'axios';
+import md5 from 'md5';
 class Page extends Component {
     state = {
         userName: '',

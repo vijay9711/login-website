@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import MemData from '../Data/member.json';
 import './ProfileCard.css'
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
-import 'c:/Users/vijis/node_modules/bootstrap-css-only/css/bootstrap.css';
-import 'c:/Users/vijis/node_modules/react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
 
 class Table extends Component {
     state = {}

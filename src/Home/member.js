@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import Data from '../Data/memberDetails.json'
 import SideBar from '../login/sidebar';
 import Footer from '../Home/footer';
-//import axios from 'c:/Users/vijis/node_modules/axios';
+import axios from 'axios';
 
 class Member extends Component {
     state = {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "c:/Users/vijis/node_modules/mdbreact";
+import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 class Footer extends Component {
     state = {}

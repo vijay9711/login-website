@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import axios from 'c:/Users/vijis/node_modules/axios';
+// import axios from 'axios';
 
 class ProCards extends Component {
     state = {
         id: this.props.Id,
         User: [],
     }
-    componentDidMount() {
-        //const Id = this.state.id;
-        axios.get("http://localhost:3004/userdata")
-            .then(res => {
-                const pers = res.data[this.state.id.id];
-                this.setState({ User: pers });
-            })
+    // componentDidMount() {
+    //     //const Id = this.state.id;
+    //     axios.get("http://localhost:3004/userdata")
+    //         .then(res => {
+    //             const pers = res.data[this.state.id.id];
+    //             this.setState({ User: pers });
+    //         })
 
-    }
+    // }
     account = (event) => {
         event.preventDefault();
         const id = this.state.id;
